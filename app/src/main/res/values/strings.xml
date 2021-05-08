@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AnrodidBootcampTurkey</string>
+    <string name="app_name_splashscreen">Harcama Takip Uygulaması</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="continues">Continue</string>
+    <string name="skip_pressed">Skip Pressed!!</string>
+    <string name="description">How great is it to travel? To meet new people, see new places, experience different cultures.</string>
+    <string name="title">Travel World</string>
+    <string name="title_activity_app_intro_screen">AppIntroScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="extended_fab_label">Add</string>
+    <string name="add_page_firstName">Firt Name</string>
+    <string name="add_page_amount">Amount</string>
+    <string name="update_page_user_name">Your Name</string>
+    <string name="add_page_man">Man</string>
+    <string name="add_page_women">Woman</string>
+    <string name="add_page_other">Other</string>
+    <string name="add_page_currency_tl">TL</string>
+    <string name="add_page_currency_dolar">Dolar</string>
+    <string name="add_page_currency_euro">Euro</string>
+    <string name="add_page_currency_sterlin">Sterlin</string>
+    <string name="add_page_spending_invoice">Invoice</string>
+    <string name="add_page_spending_rent">Rent</string>
+    <string name="add_page_spending_other">Other</string>
+    <string name="add_page_spending_name">Spending Name</string>
+    <string name="update_page_user_man">Man</string>
+    <string name="update_page_user_women">Woman</string>
+    <string name="update_page_user_other">Other</string>
+
+
+</resources>

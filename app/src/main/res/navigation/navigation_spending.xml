@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_spending"
+    app:startDestination="@id/spendingListFragment">
+
+    <fragment
+        android:id="@+id/spendingListFragment"
+        android:name="com.gokhanagis.anrodidbootcampturkey.fragments.list.SpendingListFragment"
+        android:label="Spending List"
+        tools:layout="@layout/fragment_spending_list" >
+        <action
+            android:id="@+id/action_spendingListFragment_to_spendingAddFragment2"
+            app:destination="@id/spendingAddFragment2" />
+        <action
+            android:id="@+id/action_spendingListFragment_to_spendingDeleteFragment"
+            app:destination="@id/spendingDeleteFragment" />
+        <action
+            android:id="@+id/action_spendingListFragment_to_updateUserFragment"
+            app:destination="@id/updateUserFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spendingAddFragment2"
+        android:name="com.gokhanagis.anrodidbootcampturkey.fragments.add.SpendingAddFragment"
+        android:label="Spending Add"
+        tools:layout="@layout/fragment_spending_add" >
+        <action
+            android:id="@+id/action_spendingAddFragment2_to_spendingListFragment"
+            app:destination="@id/spendingListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/spendingDeleteFragment"
+        android:name="com.gokhanagis.anrodidbootcampturkey.fragments.delete.SpendingDeleteFragment"
+        android:label="Spending Delete"
+        tools:layout="@layout/fragment_spending_delete" >
+        <action
+            android:id="@+id/action_spendingDeleteFragment_to_spendingListFragment"
+            app:destination="@id/spendingListFragment" />
+        <argument
+            android:name="currentSpending"
+            app:argType="com.gokhanagis.anrodidbootcampturkey.model.Spending" />
+    </fragment>
+    <fragment
+        android:id="@+id/updateUserFragment"
+        android:name="com.gokhanagis.anrodidbootcampturkey.fragments.update.UpdateUserFragment"
+        android:label="Update User Information"
+        tools:layout="@layout/fragment_update_user" >
+        <action
+            android:id="@+id/action_updateUserFragment_to_spendingListFragment"
+            app:destination="@id/spendingListFragment" />
+        <argument
+            android:name="currentUser"
+            app:argType="com.gokhanagis.anrodidbootcampturkey.model.User" />
+    </fragment>
+</navigation>
