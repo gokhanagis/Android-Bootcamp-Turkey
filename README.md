@@ -1,5 +1,5 @@
 # Android-Bootcamp-Turkey
-Kotlin ile Room Database, Navigation, View Binding ya , Retrofit ve RecyclerView kullanımı
+Kotlin ile Room Database, Navigation, View Binding, Retrofit ve RecyclerView kullanımı
 
 
  splash screen
